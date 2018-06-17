@@ -1,6 +1,6 @@
 {
   "name": "videojs-video-tooltip",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "video tooltip component for video.js",
   "main": "./dist/videojs.video.tooltip.js",
   "repository": {
