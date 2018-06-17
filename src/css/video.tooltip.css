@@ -1,0 +1,7 @@
+
+.vjs-video-tooltip {
+	position: absolute;
+	background-color: rgba(43,51,63,.7);
+	border: 1px solid rgba(43,51,63,.7);
+	margin-top: -12px;
+}

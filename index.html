@@ -1,0 +1,22 @@
+
+<html>
+  <head>
+    <title>Video.js Video Tooltips Example</title>
+    <link rel="stylesheet" href="/node_modules/video.js/dist/video-js.min.css">
+    <link rel="stylesheet" href="videojs.video.tooltip.css" />
+  </head>
+
+  <body>
+    <video id="content_video" class="video-js vjs-default-skin"
+        controls preload="auto" width="640"
+        height="360">
+      <source src="//commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+          type="video/mp4" ></source>
+    </video>
+    <script src="/node_modules/video.js/dist/video.js"></script>
+    <script src="videojs.video.tooltip.js"></script>
+    <script>
+      var player = videojs('content_video');
+    </script>
+  </body>
+</html>

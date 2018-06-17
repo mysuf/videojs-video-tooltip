@@ -1,0 +1,51 @@
+{
+  "name": "videojs-video-tooltip",
+  "version": "0.1.0",
+  "description": "video tooltip component for video.js",
+  "main": "./dist/videojs.video.tooltip.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mysuf/videojs-video-tooltip"
+  },
+  "keywords": [
+    "videojs",
+    "video",
+    "component",
+    "seek",
+    "thumbnail",
+    "preview",
+    "tooltip"
+  ],
+  "author": {
+    "name": "Petr Schuchmann"
+  },
+  "scripts": {
+    "devBuild": "watch 'npm run rollup:max' src",
+    "lint": "eslint \"src/*.js\"",
+    "rollup": "npm-run-all rollup:*",
+    "rollup:max": "rollup -c config/rollup.config.js",
+    "rollup:min": "rollup -c config/rollup.config.min.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "video.js": "^6 || ^7"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-plugin-external-helpers": "^6",
+    "eslint": "^4.11.0",
+    "eslint-config-google": "^0.9.1",
+    "eslint-plugin-jsdoc": "^3.2.0",
+    "npm-run-all": "^4.1.2",
+    "path": "^0.12.7",
+    "rollup": "^0.51.8",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-copy": "^0.2.3",
+    "rollup-plugin-json": "^2.3.0",
+    "rollup-plugin-uglify": "^2.0.1",
+    "rollup-plugin-sass": "^0.8.0",
+    "uglify-es": "^3.1.10",
+    "watch": "^1.0.2"
+  }
+}
