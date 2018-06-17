@@ -16,6 +16,13 @@
     "preview",
     "tooltip"
   ],
+  "files": [
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md",
+    "dist/",
+    "src/"
+  ],
   "author": {
     "name": "Petr Schuchmann"
   },
